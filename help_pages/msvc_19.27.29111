@@ -20,7 +20,6 @@ Copyright (C) Microsoft Corporation.  All rights reserved.
                              -CODE GENERATION-
 
 /Gu[-] ensure distinct functions have distinct addresses
-(press <return> to continue)
 /Gw[-] separate global variables for linker
 /GF enable read-only string pooling     /Gm[-] enable minimal rebuild
 /Gy[-] separate functions for linker    /GS[-] enable security checks
@@ -43,7 +42,6 @@ Copyright (C) Microsoft Corporation.  All rights reserved.
 /Qvec-report:1 auto-vectorizer diagnostic; indicate vectorized loops
 /Qvec-report:2 auto-vectorizer diagnostic; indicate loops not vectorized
 /GL[-] enable link-time code generation
-(press <return> to continue)
 /volatile:<iso|ms> choose volatile model:
     iso - Acquire/release semantics not guaranteed on volatile accesses
     ms  - Acquire/release semantics guaranteed on volatile accesses
@@ -66,7 +64,6 @@ Copyright (C) Microsoft Corporation.  All rights reserved.
    AVX - enable use of instructions available with AVX-enabled CPUs
    AVX2 - enable use of instructions available with AVX2-enabled CPUs
    AVX512 - enable use of instructions available with AVX-512-enabled CPUs
-(press <return> to continue)
 /QIntel-jcc-erratum enable mitigations for Intel JCC erratum
 /Qspectre-load Enable spectre mitigations for all instructions which load memory
 /Qspectre-load-cf Enable spectre mitigations for all control-flow instructions which load memory
@@ -89,7 +86,6 @@ Copyright (C) Microsoft Corporation.  All rights reserved.
 /AI<dir> add to assembly search path    /FU<file> forced using assembly/module
 /C don't strip comments                 /D<name>{=|#}<text> define macro
 /E preprocess to stdout                 /EP preprocess to stdout, no #line
-(press <return> to continue)
 /P preprocess to file                   /Fx merge injected code to file
 /FI<file> name forced include file      /U<name> remove predefined macro
 /u remove all predefined macros         /I<dir> add to include search path
@@ -117,7 +113,6 @@ Copyright (C) Microsoft Corporation.  All rights reserved.
   threadSafeInit[-]     enable thread-safe local static initialization
   inline[-]             remove unreferenced function or data if it is
                         COMDAT or has internal linkage only (off by default)
-(press <return> to continue)
   sizedDealloc[-]       enable C++14 global sized deallocation
                         functions (on by default)
   throwingNew[-]        assume operator new throws on failure (off by default)
@@ -142,7 +137,6 @@ Copyright (C) Microsoft Corporation.  All rights reserved.
 /vd{0|1|2} disable/enable vtordisp      /vm<x> type of pointers to members
 /ZI enable Edit and Continue debug info
 /openmp enable OpenMP 2.0 language extensions
-(press <return> to continue)
 /openmp:experimental enable OpenMP 2.0 language extensions plus select OpenMP 3.0+ language extensions
 
                               -MISCELLANEOUS-
@@ -165,7 +159,6 @@ Copyright (C) Microsoft Corporation.  All rights reserved.
 /Yu[file] use .PCH file                 /Y- disable all PCH options
 /Zm<n> max memory alloc (% of default)  /FS force to use MSPDBSRV.EXE
 /source-charset:<iana-name>|.nnnn set source character set
-(press <return> to continue)
 /execution-charset:<iana-name>|.nnnn set execution character set
 /utf-8 set source and execution character set to UTF-8
 /validate-charset[-] validate UTF-8 files for only legal characters
@@ -189,7 +182,6 @@ Copyright (C) Microsoft Corporation.  All rights reserved.
 
                               -DIAGNOSTICS-
 
-(press <return> to continue)
 /diagnostics:<args,...> controls the format of diagnostic messages:
              classic   - retains prior format
              column[-] - prints column information
