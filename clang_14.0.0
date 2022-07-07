@@ -1,8 +1,3 @@
-OVERVIEW: clang LLVM compiler
-
-USAGE: clang [options] file...
-
-OPTIONS:
   -###                                                                     Print (but do not run) the commands to run for this compilation
   --amdgpu-arch-tool=<value>                                               Tool used for detecting AMD GPU arch in the system.
   --analyzer-output <value>                                                Static analyzer report output format (html|plist|plist-multi-file|plist-html|sarif|sarif-html|text).
