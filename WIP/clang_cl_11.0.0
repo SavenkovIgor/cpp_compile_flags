@@ -92,7 +92,6 @@ CL.EXE COMPATIBILITY OPTIONS:
   /showIncludes:user                                 Like /showIncludes but omit system headers
   /showIncludes                                      Print info about included files to stderr
   /source-charset:<value>                            Set source encoding, supports only UTF-8
-  /std:<value>                                       Set C++ version (c++14,c++17,c++latest)
   /TC                                                Treat all source files as C
   /Tc <file>                                         Treat <file> as C source file
   /TP                                                Treat all source files as C++
@@ -112,7 +111,6 @@ CL.EXE COMPATIBILITY OPTIONS:
   /W2                                                 Enable -Wall
   /W3                                                 Enable -Wall
   /W4                                                 Enable -Wall and -Wextra
-  /Wall                                               Enable -Weverything
   /WX-                                                Do not treat warnings as errors (default)
   /WX                                                 Treat warnings as errors
   /w                                                  Disable all warnings

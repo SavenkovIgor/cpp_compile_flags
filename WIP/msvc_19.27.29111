@@ -121,10 +121,6 @@ Copyright (C) Microsoft Corporation.  All rights reserved.
 
                                 -LANGUAGE-
 
-/std:<c++14|c++17|c++latest> C++ standard version
-    c++14     - ISO/IEC 14882:2014 (default)
-    c++17     - ISO/IEC 14882:2017
-    c++latest - latest draft standard (feature set subject to change)
 /permissive[-]          enable some nonconforming code to compile (feature set subject to change) (on by default)
 /Ze                     enable extensions (default)         
 /Za                     disable extensions
@@ -233,8 +229,7 @@ Copyright (C) Microsoft Corporation.  All rights reserved.
 /diagnostics:<args,...> controls the format of diagnostic messages:
              classic   - retains prior format
              column[-] - prints column information
-             caret[-]  - prints column and the indicated line of source
-/Wall               enable all warnings               
+             caret[-]  - prints column and the indicated line of source               
 /w                  disable all warnings
 /W<n>               set warning level (default n=1)
 /Wv:xx[.yy[.zzzzz]] disable warnings introduced after version xx.yy.zzzzz

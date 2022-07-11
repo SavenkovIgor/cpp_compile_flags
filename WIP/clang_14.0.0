@@ -837,7 +837,6 @@
   --start-no-unused-arguments                                              Don't emit warnings about unused arguments for the following arguments
   -static-libsan                                                           Statically link the sanitizer runtime
   -static-openmp                                                           Use the static host OpenMP runtime while linking.
-  -std=<value>                                                             Language standard to compile for
   -stdlib++-isystem <directory>                                            Use directory as the C++ standard library include path
   -stdlib=<value>                                                          C++ standard library to use
   -sycl-std=<value>                                                        SYCL language standard to compile for.
